@@ -24,7 +24,6 @@ body{
 .list-item{
   display: inline-block;
   background-color: var(--list-item-color);
-  border: 1px solid var(--list-item-color);
   position: relative;
   text-align: center;
 }
@@ -43,7 +42,7 @@ body{
 }
 
 .sub-menu .list-item{
-  width: 100%;
+  min-width: 100%;
 }
 
 .list-item:hover{
@@ -56,7 +55,7 @@ body{
 
 .sub-menu .list-item .sub-menu{
   top: 0;
-  left: 125px;
+  left: 127px;
 }
 
 p{
