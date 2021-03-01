@@ -12,7 +12,7 @@ body{
 }
 
 .navigation-menu{
-  width: 40%;
+  max-width: 40%;
   margin: 20px auto;
 }
 
@@ -57,4 +57,10 @@ body{
 .sub-menu .list-item .sub-menu{
   top: 0;
   left: 125px;
+}
+
+p{
+  text-align: justify;
+  margin: 10px;
+  line-height: 1.2em;
 }
